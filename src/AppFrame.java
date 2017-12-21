@@ -31,7 +31,7 @@ public class AppFrame {
 
         frame.setPreferredSize(new Dimension(1200, 600));
         frame.setResizable(false);
-        //frame.getContentPane().add(new AppPanel());
+        frame.getContentPane().add(new MainPanel());
         frame.pack();
         frame.setVisible(true);
     }
